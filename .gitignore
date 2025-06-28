@@ -1,0 +1,41 @@
+
+---
+
+## ✅ `.gitignore` for Sudoku Solver (C++)
+
+```gitignore
+# === Build artifacts ===
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dll
+
+# === CMake and build folders ===
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# === Editors and IDEs ===
+.vscode/
+.idea/
+*.suo
+*.user
+*.vcxproj
+*.vcxproj.*
+
+# === System and temp files ===
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+*.bak
+*.tmp
+
+# === Git merge conflicts ===
+*.orig
+*.rej
